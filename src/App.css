@@ -1,0 +1,4 @@
+/* Smooth grid transition for layout changes */
+.minesweeper-grid-animated {
+	transition: opacity 0.4s cubic-bezier(.4,2,.6,1), transform 0.4s cubic-bezier(.4,2,.6,1);
+}
